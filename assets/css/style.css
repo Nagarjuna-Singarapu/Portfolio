@@ -11501,6 +11501,13 @@ pre .code {
   background-attachment: fixed;
   color: #fff;
 }
+@media (max-width: 576px) {
+  .header {
+      background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/main_image.jpg);
+      background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/main_image.jpg);
+      background-size: contain;
+  }
+}
 
 .header .container {
   position: relative;
@@ -11553,8 +11560,8 @@ pre .code {
 
 @media (max-width: 767.98px) {
   .header {
-    height: 500px;
-    min-height: 500px;
+    height: 350px;
+    min-height: 350px;
   }
   .header .social-icons {
     margin: auto;
