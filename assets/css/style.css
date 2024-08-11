@@ -11533,6 +11533,12 @@ pre .code {
 }
 @media (max-width: 576px) {
   .header .header-content .header-title {
+    font-size: 1.2rem; /* Adjust font size for small screens */
+    white-space: normal; /* Allow text to wrap */
+  }
+}
+@media (max-width: 700px) {
+  .header .header-content .header-title {
     font-size: 1.5rem; /* Adjust font size for small screens */
     white-space: normal; /* Allow text to wrap */
   }
@@ -11625,7 +11631,6 @@ pre .code {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 40px 0;
 }
 
 @media (max-width: 991.98px) {
